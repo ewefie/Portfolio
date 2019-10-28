@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="css/bootstrap.min.css"
@@ -25,28 +27,22 @@
                 <span class="navbar-toggler-icon">
                 </span>
             </button>
-            <div class="collapse navbar-collapse" id="mainmenu">
+            <div class="collapse navbar-collapse align-items-center" id="mainmenu">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="#" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="about.html" class="nav-link">About</a>
+                        <a href="#about" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="skills.html" class="nav-link">Skills</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="portfolio.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-                            aria-expanded="false" id="submenu" aria-haspopup="true">Portfolio</a>
-                        <div class="dropdown-menu" aria-labelledby="sumbenu">
-                            <a class="dropdown-item" href="#">Frontend</a>
-                            <!-- <div class="dropdown-divider"></div> -->
-                            <a class="dropdown-item" href="#">Backend</a>
-                        </div>
+                        <a href="#skills" class="nav-link">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Contact</a>
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
                 <!-- <form class="form-inline">
@@ -70,13 +66,10 @@
     <!-- Content -->
     <!-- About -->
     <section class="page-section" id="about">
-        <div class="container">
+        <div class="container py-4">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading text-uppercase">About</h2>
-                    <!-- <h3 class="section-subheading text-muted">
-                  About me...
-                </h3> -->
                 </div>
             </div>
             <div class="row">
@@ -103,64 +96,137 @@
                 </div>
             </div>
         </div>
-    </section> <!-- Skills -->
+    </section>
+    <!-- Skills -->
     <section class="page-section" id="skills">
-        <div class="container">
-            <div class="row">
+        <div class="container py-4">
+            <div class="row no-gutters">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading text-uppercase">Skills</h2>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <figure class="skill">
-                        <a href="#"><img src="img/figma-logo.png" alt="Figma"></a>
-                        <!-- <p class="text-muted">Figma</p> -->
-                        <h4 class="service-heading">UI/UX</h4>
-                    </figure>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="one-skill pt-3">
+                        <div class="overlay-effect text-left p-3">
+                            Miałam okazję pracować na narzędziach Adobe Illustrator oraz Photoshop (jestem samoukiem).
+                            Aktualnie poznaję tajniki narzędzia Figma.
+                        </div>
+                        <div class="tech">
+                            <a href="#"><img src="img/figma-logo.png" class="img-fluid" alt="Figma"></a>
+                            <h4 class="service-heading">UI/UX</h4>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <figure class="skill">
-                        <a href="#"><img src="img/triple_logo.png" alt="HTML CSS JS"></a>
-                        <!-- <p class="text-muted">CSS, HTML, JS</p> -->
-                        <h4 class="service-heading">Frontend</h4>
-                    </figure>
+                <div class="col-md-4 text-center">
+                    <div class="one-skill pt-3">
+                        <div class="overlay-effect h-100 w-100 text-left p-3"> Jestem uczestniczką otwartego kursu
+                            programowania webowego CodersCamp.
+                        </div>
+                        <div class="tech">
+                            <a href="#"><img src="img/triple_logo.png" alt="HTML CSS JS"></a>
+                            <h4 class="service-heading">Frontend</h4>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <figure class="skill">
-                        <a href="#"><img src="img/logo_java.png" alt="Java"></a>
-                        <!-- <p class="text-muted">Java</p> -->
-                        <h4 class="service-heading">Backend</h4>
-                    </figure>
+                <div class="col-md-4 text-center">
+                    <div class="one-skill pt-3">
+                        <div class="overlay-effect h-100 w-100 text-left p-3">Naukę języka Java rozpoczęłam kilka
+                            miesięcy temu
+                            na kursie "Java od podstaw" organizowanym przez Software Development Academy.
+                        </div>
+                        <div class="tech">
+                            <a href="#"><img src="img/logo_java.png" alt="Java"></a>
+                            <h4 class="service-heading">Backend</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- Portfolio -->
-
     <section class="page-section" id="portfolio">
-        <div class="container">
-
+        <div class="container py-4">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">
-                        portfolio here...
-                    </h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-12">
-
+            <div class="row no-gutters text-center">
+                <div class="col-12 col-sm-3 col-lg-2">
+                    <div class="one-photo">
+                        <div class="overlay-effect text-center">
+                            <div class="text">
+                                To tylko kot!
+                            </div>
+                        </div>
+                        <div class="photo">
+                            <img src="../img/cat-slim.jpg" alt="cat">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-9 col-lg-6">
+                    <div class="one-photo">
+                        <div class="overlay-effect text-center">
+                            <div class="text">
+                                Jesli zastanawiasz się, co tu robią zdjęcia tych
+                                kotów... odpowiedź jest prosta: Ja po prostu lubię koty
+                                :).
+                            </div>
+                        </div>
+                        <div class="photo">
+                            <img src="../img/cat-wide.jpg" alt="cat">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 text-center">
+                    <div class="one-photo">
+                        <div class="overlay-effect">
+                            <div class="text">
+                                Kolejny kociak :).
+                            </div>
+                        </div>
+                        <div class="photo">
+                            <img src="../img/kitten.jpg" alt="kitten">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="one-photo">
+                        <a href="https://github.com/ewefie" target="_blank">
+                            <div class="overlay-effect text-center">
+                                <div class="text">
+                                    Samymi kotami człowiek nie żyje, więc kliknij tu aby przejść do mojego GitHuba!
+                                </div>
+                            </div>
+                            <div class="photo">
+                                <img src="../img/code.jpg" alt="code">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-8">
+                    <div class="one-photo">
+                        <a href="https://github.com/ewefie" target="_blank">
+                            <div class="overlay-effect text-center">
+                                <div class="text text-center">
+                                    Klikając tutaj trafisz w dokładnie to samo miejsce -> mój profil na Githubie.
+                                </div>
+                            </div>
+                            <div class="photo">
+                                <img src="../img/prog.jpg" alt="programmer">
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-
     <!-- Contact -->
     <section class="page-section" id="contact">
-        <div class="container">
+        <div class="container py-4">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading text-uppercase">Contact me</h2>
@@ -224,27 +290,26 @@
 
     <!-- Footer -->
     <footer>
-        <section id="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 mt-3">
-                        <ul class="list-unstyled list-inline social text-center">
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-github"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 mb-2 text-center">
-                        <p>Copyrights @ 2019 Ewelina Fiedorowicz</p>
-                    </div>
-                    </hr>
+        <div class="container py-2">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-3">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="https://github.com/ewefie"><i
+                                    class="fa fa-github"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/ewelinafiedorowicz/"><i
+                                    class="fa fa-linkedin"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mb-2 text-center">
+                    <p>Copyrights @ 2019 Ewelina Fiedorowicz</p>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
