@@ -5,13 +5,19 @@ body {
     background-image: url("../img/lightpaperfibers.png");
     background-repeat: repeat;
     background-attachment: fixed;
-    background-color: #999999;
     color: #6C5F52;
     /* padding: 40px 0; */
 }
 
 h2 {
     padding-top: 15px;
+}
+
+#about .container,
+#skills .container,
+#portfolio .container{
+    background-color: rgb(250, 245, 235);
+    /* padding: 0; */
 }
 
 /* Navigation bar */
@@ -223,39 +229,34 @@ object-fit: contain;
  width: 100%;
  height: auto;
  object-fit: contain;
+}  
+.one-photo:hover .overlay-effect {
+    opacity: 1;
 }
-.one-photo {
-        position: relative;
-      }  
-      .one-photo:hover .overlay-effect {
-        opacity: 1;
-      }
-      .one-photo:hover .photo{
-        filter: blur(2px);
-      }
-      
-     .one-photo .overlay-effect {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        transition: .4s ease-in-out;
-        font-size: 15px;
-        background-color: rgba(65, 57, 49, 0.644);
-        color: rgb(231, 210, 188);
-        overflow: hidden;
-        z-index: 1;
-      }
-
-      .one-photo .text{
-          /* justify-content: center; */
-
-          position: absolute;
-          top: 30%;
-          margin: 5px;
-      }
+.one-photo:hover .photo{
+    filter: blur(2px);
+}
+    
+.one-photo .overlay-effect {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .4s ease-in-out;
+    font-size: 15px;
+    background-color: rgba(65, 57, 49, 0.644);
+    color: rgb(231, 210, 188);
+    overflow: hidden;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one-photo .text{
+    margin: 20px;
+}
       
 /* Footer */
 footer {
