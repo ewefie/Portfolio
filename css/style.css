@@ -2,7 +2,7 @@ body {
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
     /* font-size: 15px; */
-    background-image: url("../img/lightpaperfibers.png");
+    background-image: url("img/lightpaperfibers.png");
     background-repeat: repeat;
     background-attachment: fixed;
     color: #6C5F52;
@@ -54,7 +54,7 @@ nav a:hover{
 header.masthead {
     text-align: center;
     color: #354948;
-    background-image: url("../img/typewriter-801921_1920.jpg");
+    background-image: url("img/typewriter-801921_1920.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
