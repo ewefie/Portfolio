@@ -13,12 +13,12 @@ h2 {
     padding-top: 15px;
 }
 
-/* #about .container,
+#about .container,
 #skills .container,
 #portfolio .container{
     background-color: rgba(250, 245, 235, 0.404);
     /* padding: 0; */
-} */
+}
 
 /* Navigation bar */
 nav a {
