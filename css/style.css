@@ -50,6 +50,10 @@ nav a:hover{
     background-color: #5c9c94;
 }
 
+#mainmenu{
+    z-index: 1;
+}
+
 /* Header */
 header.masthead {
     text-align: center;
