@@ -13,12 +13,12 @@ h2 {
     padding-top: 15px;
 }
 
-#about .container,
+/* #about .container,
 #skills .container,
 #portfolio .container{
     background-color: rgba(250, 245, 235, 0.404);
     /* padding: 0; */
-}
+} */
 
 /* Navigation bar */
 nav a {
@@ -50,9 +50,7 @@ nav a:hover{
     background-color: #5c9c94;
 }
 
-#mainmenu{
-    z-index: 1;
-}
+
 
 /* Header */
 header.masthead {
