@@ -133,7 +133,7 @@ section#contact :-ms-input-placeholder {
   min-height: 120px;
   position: relative
 }
-.one-skill:hover .overlay-effect
+.one-skill:hover .overlay-effect,
 .one-skill:focus .overlay-effect {
   opacity: 1
 }
