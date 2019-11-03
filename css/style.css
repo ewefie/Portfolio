@@ -133,11 +133,14 @@ section#contact :-ms-input-placeholder {
   min-height: 120px;
   position: relative
 }
-.one-skill:hover .overlay-effect {
+.one-skill:hover .overlay-effect
+.one-skill:focus .overlay-effect {
   opacity: 1
 }
 .one-skill:hover a,
-.one-skill:hover h4 {
+.one-skill:hover h4,
+.one-skill:focus a,
+.one-skill:focus h4 {
   filter: blur(2px)
 }
 .one-skill .overlay-effect {
@@ -178,10 +181,12 @@ section#contact :-ms-input-placeholder {
   height: auto;
   object-fit: contain
 }
-.one-photo:hover .overlay-effect {
+.one-photo:hover .overlay-effect,
+.one-photo:focus .overlay-effect {
   opacity: 1
 }
-.one-photo:hover .photo {
+.one-photo:hover .photo
+.one-photo:focus .photo {
   filter: blur(2px)
 }
 .one-photo .overlay-effect {
